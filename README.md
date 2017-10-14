@@ -1,12 +1,14 @@
 # mapping-surrounding-MATLAB-Arduino
 MAPPING OF SURROUNDINGS USING MATLAB AND ARDUINO
 
-PROBLEM STATEMENT
+PROBLEM STATEMENT:
 Collisions with the walls and other cars while parking or unparking the car or while reversing the car is a very common problem that we all face in our everyday life. The situation becomes worse with crowd. Not only this , people also get engaged in arguments and conflicts disrupting social peace and harmony.
 
-Abstract : To rectify the above problem, we have made a system that will map your surrounding showing the position of obstacles and will also give an idea of the size of the obstacle. In this project, we are using an ultrasonic Distance sensor. It generates sound waves beyond the scope of human hearing and measures distance by calculating the time required by these waves to hit an obstacle and travel back. This is similar to the principle used by bats. Another component that we are going to use is a servo motor. It differs from the usual DC motor in that it can turn very precisely to a given angular position and hold its state there. When a servo motor is given pulses of a specific duration, it moves to the corresponding angular position. We will be using both these components to get a 180° field of view. After the system gets the reading from the surrounding using the sensor and the motor , it will create a polar plot or map of the surrounding showing the position of different objects in the field of view of our system using MATLAB and Arduino.
+Abstract : 
+To rectify the above problem, we have made a system that will map your surrounding showing the position of obstacles and will also give an idea of the size of the obstacle. In this project, we are using an ultrasonic Distance sensor. It generates sound waves beyond the scope of human hearing and measures distance by calculating the time required by these waves to hit an obstacle and travel back. This is similar to the principle used by bats. Another component that we are going to use is a servo motor. It differs from the usual DC motor in that it can turn very precisely to a given angular position and hold its state there. When a servo motor is given pulses of a specific duration, it moves to the corresponding angular position. We will be using both these components to get a 180° field of view. After the system gets the reading from the surrounding using the sensor and the motor , it will create a polar plot or map of the surrounding showing the position of different objects in the field of view of our system using MATLAB and Arduino.
 
-Hardware Requirement : This project uses the following hardware : 
+Hardware Requirement : 
+This project uses the following hardware : 
 1. ARDUINO UNO (any Arduino footprint board can be used in place of the Uno)
 The arduino UNO is a microcontroller board with 14 digital input/output pins, 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a reset button. The Uno is the medium through which the sensor sends its readings . 
 2. ULTRASONIC SENSOR : HC-SR04
